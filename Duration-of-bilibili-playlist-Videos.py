@@ -62,7 +62,6 @@ for i in time_elem:
     print(f"时长: {total_seconds} 秒")
 print(f"总时长: {total_playlist_seconds} 秒")
 
-
 hour, minute, second = seconds_to_hour_minute_second(total_playlist_seconds)
 print(f"{playlist_name_elem.text}   总时长: {hour}:{minute}:{second}")
 
